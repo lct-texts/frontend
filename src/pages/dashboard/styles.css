@@ -1,0 +1,43 @@
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard__container{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.chart__container{
+    display: flex;
+    gap: 100px;
+}
+
+.chart-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.legend__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.legend__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.legend__color{
+    width: 20px;
+    height: 20px;
+    border-radius: 200px;
+}
